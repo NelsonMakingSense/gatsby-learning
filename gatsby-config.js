@@ -4,6 +4,10 @@
 module.exports = {
   siteMetadata: {
     title: `My Gatsby Site`,
+    plugins: [
+      "gatsby-plugin-image",
+      "gatsby-plugin-sharp",
+    ],
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
