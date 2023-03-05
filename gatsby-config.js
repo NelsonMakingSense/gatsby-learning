@@ -3,7 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `My Gatsby Site`,
+    title: `fun learning`,
+    description: 'Example project for the gatsby head api',
+    twitterUsername: '@gatsbyjs',
+    image: '/gatsby-icon.png',
     plugins: [
       "gatsby-plugin-image",
       "gatsby-plugin-sharp",
@@ -18,8 +21,8 @@ module.exports = {
   }, "gatsby-plugin-mdx", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "images",
-      "path": "./src/images/"
+      name: `blog`,
+      path: `${__dirname}/blog`,
     },
     __key: "images"
   }, {

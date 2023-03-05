@@ -2,6 +2,7 @@
 import * as React from 'react'
 import  Layout from './layout'
 import { title } from './styles.module.css'
+import Seo from '../components/seo'
 
 /* Step 2: Define your component. Note that your
 component name should start with a capital letter. */
@@ -17,7 +18,7 @@ const MyComponent = () => {
   )
 }
 
-export const Head = () => <title>my component</title>
+export const Head = () => <Seo title="Vea pues"/>
 
 /* Step 3: Export your component so it
 can be used by other parts of your app. */
