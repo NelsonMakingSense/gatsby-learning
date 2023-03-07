@@ -1,6 +1,6 @@
 // Step 1: Import React. This lets you use JSX inside your .js file.
 import * as React from 'react'
-import  Layout from './layout'
+import Layout from '../components/layout'
 import { title } from './styles.module.css'
 import Seo from '../components/seo'
 
